@@ -230,9 +230,10 @@ header {
 }
 
 .hero-section .right-section img {
+    margin-bottom: 5vh;
     max-width: 100%;
     height: auto;
-    filter: grayscale(75%);
+    filter: grayscale(80%);
 }
 
 .left-section h1 {
