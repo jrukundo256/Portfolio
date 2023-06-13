@@ -355,7 +355,7 @@ header {
 .project-card {
     display: flex;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .project-screenshot {
@@ -369,6 +369,10 @@ header {
 
 .project-info {
     flex: 0.4;
+}
+
+.project-info .btn {
+    margin-top: 15px;
 }
 
 .project-info a {
